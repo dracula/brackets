@@ -1,0 +1,222 @@
+/* Dracula Theme v1.0.0
+#
+# https://github.com/zenorocha/dracula-theme
+#
+# Copyright 2017, All rights reserved
+#
+# Code licensed under the MIT license
+# http://zenorocha.mit-license.org
+#
+# @author Zeno Rocha <hi@zenorocha.com>
+#
+# -- Brackets Version by felipekm <felipe.kautzmann@gmail.com>
+*/
+
+.cm-string, .cm-string-2 {
+    color: #f1fa8c;
+}
+
+.cm-error {
+    background : #ff5555;
+    color      : #f8f8f2 !important;
+}
+
+.cm-meta {
+    color: #f8f8f2;
+}
+
+.cm-comment {
+    color: #6272a4;
+}
+
+.cm-tag {
+    color: #ff79c6 !important;
+}
+
+.cm-atom,
+.cm-number,
+.cm-link {
+    color: #bd93f9;
+}
+
+.cm-property {
+    color: #66d9ef;
+}
+
+.cm-attribute {
+    color: #66d9ef;
+}
+
+.cm-keyword {
+    color: #ff79c6;
+}
+
+.cm-string.cm-property {
+    color: #ffb86c;
+}
+
+.cm-variable {
+    color: #50fa7b;
+}
+
+.cm-variable-2 {
+    color: white;
+}
+
+.cm-variable-3 {
+    color: #ffb86c;
+}
+
+.cm-qualifier {
+    color: #50fa7b;
+}
+
+.cm-builtin {
+    color: #50fa7b;
+}
+
+.cm-operator {
+    color: #ff79c6;
+}
+
+.cm-tag {
+    color: #ff5555;
+}
+
+.cm-def {
+    color: #50fa7b;
+}
+
+.cm-bracket {
+    color: #f8f8f2;
+}
+
+/**
+ * User Interface
+ * ==============
+ *
+ * @TODO Matching words
+ * @TODO Scrollbars
+ * @TODO Find highlights
+ */
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    background : #282a36;
+    color      : #f8f8f2;
+}
+
+#not-editor,
+#image-holder {
+    background-color : #282a36;
+    color            : #F8F8F2;
+    transition       : background-color 0.3s ease-out;
+}
+
+.CodeMirror {
+    border-left-color: #282a36;
+}
+
+div.CodeMirror-selected {
+    background: #44475a !important;
+}
+
+.CodeMirror, .CodeMirror-gutters {
+  background-color : #282a36 !important;
+  color            : #f8f8f2 !important;
+  border           : none;
+}
+
+.CodeMirror-gutters {
+    border-right: 0px;
+}
+
+.CodeMirror-guttermarker {
+    color: #F8F8F2;
+}
+
+.CodeMirror-guttermarker-subtle {
+    color: #282a36;
+}
+
+.CodeMirror-linenumber {
+    color: #6D8A88;
+}
+
+.CodeMirror-cursor {
+    border-left: solid thin #f8f8f0 !important;
+}
+
+.CodeMirror-activeline-background,
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: #44475a !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #F8F8F2;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+    color: #6272a4;
+}
+
+.CodeMirror-matchingbracket {
+    background-color: transparent !important;
+    border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
+    color: #FFF !important;
+    padding-bottom: 0.166em;
+}
+
+.CodeMirror-matchingtag {
+    background-color: transparent;
+    border-bottom: 1px solid #F8F8F2; /* text-decoration: underline does not look that well with large font sizes */
+    padding-bottom: 0.166em;
+}
+
+/**
+ * Extensions
+ * ==========
+ */
+
+/*
+ * Brackets-Vim (https://github.com/megalord/brackets-vim)
+ * -------------------------------------------------------
+ */
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+    background: rgba(248, 248, 242, 0.5) !important;
+}
+
+/**
+ * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
+ * --------------------------------------------------------------------------
+ */
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
+    background-color: #44475a !important;
+}
+
+/**
+ * Code Folding (https://github.com/thehogfather/brackets-code-folding)
+ * --------------------------------------------------------------------
+ */
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+    color: #44475a;
+}
+
+.CodeMirror-foldgutter-open::after {
+    content: "\25bd";
+}
+
+.CodeMirror-foldmarker {
+    background-color: #282a36;
+    border-color: #44475a;
+    color: #44475a;
+    padding: 0 10px;
+}

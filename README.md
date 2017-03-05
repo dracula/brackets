@@ -2,7 +2,9 @@
 
 > A dark theme for [Brackets](http://brackets.io).
 
-## Install
+![image](https://cloud.githubusercontent.com/assets/205932/23592098/9bfb2a6a-01da-11e7-9c15-92709d6de5ce.png)
+
+## How to Install
 
 This extension requires Brackets Release 1.0 or newer.
 

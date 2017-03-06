@@ -1,6 +1,6 @@
 {
   "name": "dracula",
-  "title": "Dracula Zeno Rocha",
+  "title": "Dracula Official",
   "description": "Dracula Syntax Theme. A dark theme for many editors, shells, and more.",
   "version": "1.0.0",
   "author": "Felipe Kautzmann <felipe.kautzmann@gmail.com> (http://felipekm.github.io)",
@@ -22,9 +22,5 @@
   "theme": {
     "file": "theme.css",
     "dark": true
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-zip": "^4.0.0"
   }
 }

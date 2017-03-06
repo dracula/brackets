@@ -6,13 +6,15 @@
 
 ## Install
 
-This extension requires Brackets Release 1.0 or newer.
+This extension requires Brackets Release 1.0 or newer:
 
 1. Open Brackets
 2. Open the Extension Manager
 3. Switch to "Themes" tab
-4. Search for "Dracula Zeno Rocha"
+4. Search for "Dracula Official"
 5. Click "Install"
+
+![image](https://cloud.githubusercontent.com/assets/205932/23593572/68a340a2-01ef-11e7-8f9e-1d24c5d46d38.png)
 
 ## Team
 

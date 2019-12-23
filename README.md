@@ -2,7 +2,7 @@
 
 > A dark theme for [Brackets](http://brackets.io).
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/brackets.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 

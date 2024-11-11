@@ -12,83 +12,84 @@
 # -- Brackets Version by github.com/felipekm <felipe.kautzmann@gmail.com>
 */
 
-.cm-string, .cm-string-2 {
-    color: #f1fa8c;
+.cm-string,
+.cm-string-2 {
+  color: #f1fa8c;
 }
 
 .cm-error {
-    background : #ff5555;
-    color      : #f8f8f2 !important;
+  background: #ff5555;
+  color: #f8f8f2 !important;
 }
 
 .cm-meta {
-    color: #f8f8f2;
+  color: #f8f8f2;
 }
 
 .cm-comment {
-    color: #6272a4;
+  color: #6272a4;
 }
 
 .cm-tag {
-    color: #ff79c6 !important;
+  color: #ff79c6 !important;
 }
 
 .cm-atom,
 .cm-number,
 .cm-link {
-    color: #bd93f9;
+  color: #bd93f9;
 }
 
 .cm-property {
-    color: #66d9ef;
+  color: #66d9ef;
 }
 
 .cm-attribute {
-    color: #66d9ef;
+  color: #66d9ef;
 }
 
 .cm-keyword {
-    color: #ff79c6;
+  color: #ff79c6;
 }
 
 .cm-string.cm-property {
-    color: #ffb86c;
+  color: #ffb86c;
 }
 
 .cm-variable {
-    color: #50fa7b;
+  color: #50fa7b;
 }
 
 .cm-variable-2 {
-    color: white;
+  color: white;
 }
 
 .cm-variable-3 {
-    color: #ffb86c;
+  color: #ffb86c;
 }
 
 .cm-qualifier {
-    color: #50fa7b;
+  color: #50fa7b;
 }
 
 .cm-builtin {
-    color: #50fa7b;
+  color: #50fa7b;
 }
 
 .cm-operator {
-    color: #ff79c6;
+  color: #ff79c6;
 }
 
 .cm-tag {
-    color: #ff5555;
+  color: #ff5555;
 }
 
 .cm-def {
-    color: #50fa7b;
+  color: #50fa7b;
 }
 
 .cm-bracket {
-    color: #f8f8f2;
+  color: #f8f8f2;
 }
 
 /**
@@ -96,80 +97,93 @@
  * ==============
  *
  * @TODO Matching words
- * @TODO Scrollbars
  * @TODO Find highlights
  */
 .CodeMirror,
 .CodeMirror .CodeMirror-scroll {
-    background : #282a36;
-    color      : #f8f8f2;
+  background: #282a36;
+  color: #f8f8f2;
+}
+
+.CodeMirror-vscrollbar {
+  background: #282a36 !important;
+  width: 12px !important;
+}
+
+// change background color when scrolling
+.CodeMirror-scroll {
+  transition: background-color 0.3s ease-out;
 }
 
 #not-editor,
 #image-holder {
-    background-color : #282a36;
-    color            : #F8F8F2;
-    transition       : background-color 0.3s ease-out;
+  background-color: #282a36;
+  color: #f8f8f2;
+  transition: background-color 0.3s ease-out;
 }
 
 .CodeMirror {
-    border-left-color: #282a36;
+  border-left-color: #282a36;
 }
 
 div.CodeMirror-selected {
-    background: #44475a !important;
+  background: #44475a !important;
 }
 
-.CodeMirror, .CodeMirror-gutters {
-  background-color : #282a36 !important;
-  color            : #f8f8f2 !important;
-  border           : none;
+.CodeMirror,
+.CodeMirror-gutters {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+  border: none;
 }
 
 .CodeMirror-gutters {
-    border-right: 0px;
+  border-right: 0px;
 }
 
 .CodeMirror-guttermarker {
-    color: #F8F8F2;
+  color: #f8f8f2;
 }
 
 .CodeMirror-guttermarker-subtle {
-    color: #282a36;
+  color: #282a36;
 }
 
 .CodeMirror-linenumber {
-    color: #6D8A88;
+  color: #6d8a88;
 }
 
 .CodeMirror-cursor {
-    border-left: solid thin #f8f8f0 !important;
+  border-left: solid thin #f8f8f0 !important;
 }
 
 .CodeMirror-activeline-background,
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-    background: #44475a !important;
+  background: #44475a !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-    color: #F8F8F2;
+  color: #f8f8f2;
 }
 
-.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
-    color: #6272a4;
+.CodeMirror-focused
+  .CodeMirror-activeline
+  .inline-widget
+  .CodeMirror-gutter-elt {
+  color: #6272a4;
 }
 
 .CodeMirror-matchingbracket {
-    background-color: transparent !important;
-    border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
-    color: #FFF !important;
-    padding-bottom: 0.166em;
+  background-color: transparent !important;
+  border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
+  color: #fff !important;
+  padding-bottom: 0.166em;
 }
 
 .CodeMirror-matchingtag {
-    background-color: transparent;
-    border-bottom: 1px solid #F8F8F2; /* text-decoration: underline does not look that well with large font sizes */
-    padding-bottom: 0.166em;
+  background-color: transparent;
+  border-bottom: 1px solid #f8f8f2; /* text-decoration: underline does not look that well with large font sizes */
+  padding-bottom: 0.166em;
 }
 
 /**
@@ -182,7 +196,7 @@ div.CodeMirror-selected {
  * -------------------------------------------------------
  */
 .CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
-    background: rgba(248, 248, 242, 0.5) !important;
+  background: rgba(248, 248, 242, 0.5) !important;
 }
 
 /**
@@ -195,7 +209,7 @@ div.CodeMirror-selected {
 .CodeMirror .cm-dk-whitespace-leading-tab::before,
 .CodeMirror .cm-dk-whitespace-trailing-space::before,
 .CodeMirror .cm-dk-whitespace-trailing-tab::before {
-    background-color: #44475a !important;
+  background-color: #44475a !important;
 }
 
 /**
@@ -207,16 +221,16 @@ div.CodeMirror-selected {
 .CodeMirror-foldgutter-blank,
 .CodeMirror-foldgutter-folded,
 .CodeMirror-foldgutter-open {
-    color: #44475a;
+  color: #44475a;
 }
 
 .CodeMirror-foldgutter-open::after {
-    content: "\25bd";
+  content: "\25bd";
 }
 
 .CodeMirror-foldmarker {
-    background-color: #282a36;
-    border-color: #44475a;
-    color: #44475a;
-    padding: 0 10px;
+  background-color: #282a36;
+  border-color: #44475a;
+  color: #44475a;
+  padding: 0 10px;
 }
